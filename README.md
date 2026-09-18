@@ -4,7 +4,7 @@ A full-stack Inventory Management System built using the MERN stack. The applica
 
 ## 🚀 Live Application
 
-- Frontend: `https://client-kgx7mxz3c-santowebdevs-projects.vercel.app/login`
+- Frontend: `https://client-three-eta-71.vercel.app/`
 - Backend API: `https://inventory-management-system-rzjy.onrender.com`
 
 
