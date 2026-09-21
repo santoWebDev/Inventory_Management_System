@@ -8,7 +8,6 @@
 // const orderRoutes = require("./routes/orderRoute");
 // const dashboardRoutes = require("./routes/dashboardRoute");
 // const reportRoutes = require("./routes/reportRoute");
-
 // const errorHandler = require('./middlewares/errorMiddleware');
 // require('dotenv').config();
 
@@ -73,6 +72,8 @@ const inventoryRoutes = require("./routes/inventoryRoute");
 const orderRoutes = require("./routes/orderRoute");
 const dashboardRoutes = require("./routes/dashboardRoute");
 const reportRoutes = require("./routes/reportRoute");
+const customerRoutes = require("./routes/customerRoute");
+const logisticsRoutes = require("./routes/logisticsRoute");
 
 const app = express();
 
@@ -87,6 +88,8 @@ app.use("/api/inventory", inventoryRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 app.use("/api/reports", reportRoutes);
+app.use("/api/customers", customerRoutes);
+app.use("/api/logistics", logisticsRoutes);
 
 app.get("/", (req, res) => {
   res.json({ success: true, message: "Inventory API running" });

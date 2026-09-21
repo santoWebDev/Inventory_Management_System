@@ -80,6 +80,14 @@ const Sidebar = ({ isOpen, onClose }) => {
             <Icon>□</Icon>
             Orders
           </NavLink>
+          <NavLink to="/customers" className={linkClass} onClick={closeMobile}>
+            <Icon>♙</Icon>
+            Customers
+          </NavLink>
+          <NavLink to="/logistics" className={linkClass} onClick={closeMobile}>
+            <Icon>⇢</Icon>
+            Logistics
+          </NavLink>
 
           <div className="px-3 pb-2 pt-7 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
             Workspace
