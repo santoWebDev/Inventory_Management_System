@@ -2,13 +2,13 @@
 
 A full-stack Inventory Management System built using the MERN stack. The application allows users to manage products, suppliers, stock movements, orders, and inventory transaction history through a RESTful API.
 
-## 🚀 Live Application
+##  Live Application
 
 - Frontend: `https://client-three-eta-71.vercel.app/`
 - Backend API: `https://inventory-management-system-rzjy.onrender.com`
 
 
-## 📌 Project Overview
+##  Project Overview
 
 The Inventory Management System is a MERN stack application designed to manage inventory operations efficiently.
 
@@ -29,7 +29,7 @@ The system provides functionality for:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### Frontend
 
@@ -60,33 +60,3 @@ The system provides functionality for:
 - Vercel
 - Render
 - MongoDB Atlas
-
----
-
-## 🏗️ Project Architecture
-
-```text
-                        User
-                         |
-                         ↓
-                React Frontend
-                     (Vercel)
-                         |
-                       Axios
-                         |
-                     HTTP API
-                         |
-                         ↓
-               Node.js + Express
-                    (Render)
-                         |
-                      Mongoose
-                         |
-                         ↓
-                 MongoDB Atlas
-                         |
-        ┌────────────────┼────────────────┐
-        ↓                ↓                ↓
-      Users           Products          Orders
-        ↓                ↓                ↓
-   Suppliers      Transactions       Order Items
